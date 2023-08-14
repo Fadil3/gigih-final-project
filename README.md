@@ -1,8 +1,19 @@
-# React + Vite
+# Final Project - Gigih FE
+ 
+## About  project :
+This is frontend project for Tokopedia play
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### How to run ?
+- clone this repository
+- create .env file and write your own server URL `VITE_API_URL = "https://api.com"`
+- run `npm install`
+- run `npm run dev`
 
-Currently, two official plugins are available:
+## Route Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### `/`
+Home page that contain video.
+
+### `/video/videoId`
+
+Detail video page when you click video in home. In this page user can add comment.
